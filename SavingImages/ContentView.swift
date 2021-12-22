@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var photoVM = PhotoViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+            if let image = photoVM.image {
+                Image(uiImage: image)
+            }
+            
+            Button("Download Image") {
+                photoVM.downloadImage()
+            }
+            
+        }
     }
 }
 

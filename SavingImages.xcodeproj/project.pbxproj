@@ -11,6 +11,11 @@
 		8D7CA0692772C459002E4BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA0682772C459002E4BB0 /* ContentView.swift */; };
 		8D7CA06B2772C45A002E4BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7CA06A2772C45A002E4BB0 /* Assets.xcassets */; };
 		8D7CA06E2772C45A002E4BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7CA06D2772C45A002E4BB0 /* Preview Assets.xcassets */; };
+		8D7CA0762772C4ED002E4BB0 /* PhotosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA0742772C4ED002E4BB0 /* PhotosModel.xcdatamodeld */; };
+		8D7CA07A2772C6B7002E4BB0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA0792772C6B7002E4BB0 /* Photo.swift */; };
+		8D7CA07C2772C736002E4BB0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA07B2772C736002E4BB0 /* CoreDataManager.swift */; };
+		8D7CA07E2772C7B5002E4BB0 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA07D2772C7B5002E4BB0 /* PhotoViewModel.swift */; };
+		8D7CA0802772C98F002E4BB0 /* UIImageTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7CA07F2772C98F002E4BB0 /* UIImageTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8D7CA0682772C459002E4BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D7CA06A2772C45A002E4BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7CA06D2772C45A002E4BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D7CA0752772C4ED002E4BB0 /* PhotosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotosModel.xcdatamodel; sourceTree = "<group>"; };
+		8D7CA0792772C6B7002E4BB0 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		8D7CA07B2772C736002E4BB0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8D7CA07D2772C7B5002E4BB0 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		8D7CA07F2772C98F002E4BB0 /* UIImageTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				8D7CA0682772C459002E4BB0 /* ContentView.swift */,
 				8D7CA06A2772C45A002E4BB0 /* Assets.xcassets */,
 				8D7CA06C2772C45A002E4BB0 /* Preview Content */,
+				8D7CA0742772C4ED002E4BB0 /* PhotosModel.xcdatamodeld */,
+				8D7CA0792772C6B7002E4BB0 /* Photo.swift */,
+				8D7CA07B2772C736002E4BB0 /* CoreDataManager.swift */,
+				8D7CA07D2772C7B5002E4BB0 /* PhotoViewModel.swift */,
+				8D7CA07F2772C98F002E4BB0 /* UIImageTransformer.swift */,
 			);
 			path = SavingImages;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7CA07A2772C6B7002E4BB0 /* Photo.swift in Sources */,
+				8D7CA07E2772C7B5002E4BB0 /* PhotoViewModel.swift in Sources */,
+				8D7CA0762772C4ED002E4BB0 /* PhotosModel.xcdatamodeld in Sources */,
 				8D7CA0692772C459002E4BB0 /* ContentView.swift in Sources */,
+				8D7CA07C2772C736002E4BB0 /* CoreDataManager.swift in Sources */,
 				8D7CA0672772C459002E4BB0 /* SavingImagesApp.swift in Sources */,
+				8D7CA0802772C98F002E4BB0 /* UIImageTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +361,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D7CA0742772C4ED002E4BB0 /* PhotosModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D7CA0752772C4ED002E4BB0 /* PhotosModel.xcdatamodel */,
+			);
+			currentVersion = 8D7CA0752772C4ED002E4BB0 /* PhotosModel.xcdatamodel */;
+			path = PhotosModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8D7CA05B2772C458002E4BB0 /* Project object */;
 }
